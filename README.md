@@ -6,8 +6,8 @@ Entropy
 
 The [entropy](https://en.wikipedia.org/wiki/entropy) for a [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) random variable is
 
-<div class="equation" align="center" data-raw-text="\operatorname{}\left[ X \right] = " data-equation="eq:entropy">
-	<img src="" alt="entropy for a Poisson distribution.">
+<div class="equation" align="center" data-raw-text="H(X) = \mathbb{E}\left[ I(X) \right] = \right ]\lambda[1 - \log(\lambda)] + e^{-\lambda}\sum_{k=0}^\infty \frac{\lambda^k\log(k!)}{k!}" data-equation="eq:entropy">
+	<img src="https://cdn.rawgit.com/distributions-io/poisson-entropy/8093e96d117a5311eed87093c7a9cc2bcc58ea63/docs/img/eqn.svg" alt="Entropy for a Poisson distribution.">
 	<br>
 </div>
 
