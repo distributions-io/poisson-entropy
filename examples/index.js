@@ -13,7 +13,7 @@ var lambda,
 // Plain arrays...
 lambda = new Array( 10 );
 for ( i = 0; i < lambda.length; i++ ) {
-	lambda[ i ] = i;
+	lambda[ i ] = i + 1;
 }
 out = entropy( lambda );
 console.log( 'Arrays: %s\n', out );
@@ -55,7 +55,7 @@ console.log( '\n' );
 // Typed arrays...
 lambda = new Float64Array( 10 );
 for ( i = 0; i < lambda.length; i++ ) {
-	lambda[ i ] = i;
+	lambda[ i ] = i + 1;
 }
 tmp = entropy( lambda );
 out = '';

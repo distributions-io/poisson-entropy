@@ -252,7 +252,7 @@ var lambda,
 // Plain arrays...
 lambda = new Array( 10 );
 for ( i = 0; i < lambda.length; i++ ) {
-	lambda[ i ] = i;
+	lambda[ i ] = i + 1;
 }
 out = entropy( lambda );
 
@@ -283,7 +283,7 @@ out = entropy( lambda, {
 // Typed arrays...
 lambda = new Float64Array( 10 );
 for ( i = 0; i < lambda.length; i++ ) {
-	lambda[ i ] = i;
+	lambda[ i ] = i + 1;
 }
 out = entropy( lambda );
 
