@@ -1,7 +1,7 @@
 {
   "name": "distributions-poisson-entropy",
   "version": "0.0.0",
-  "description": "Poisson distribution mean.",
+  "description": "Poisson distribution entropy.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
